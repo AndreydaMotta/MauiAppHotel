@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel.Views.Sobre"
-             Title="Sobre">
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Gray100}, Dark={StaticResource Gray300}}">
 
     <VerticalStackLayout Padding="30"
                          Spacing="20"
@@ -10,7 +12,7 @@
                          HorizontalOptions="Center">
 
         <Label Text="Sobre o Aplicativo"
-               FontFamily="Kalam"
+               FontFamily="Newsreader"
                FontSize="32"
                TextColor="{StaticResource Primary}"
                HorizontalOptions="Center" />
