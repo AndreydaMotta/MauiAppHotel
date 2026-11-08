@@ -18,7 +18,7 @@
             <VerticalStackLayout>
                 <Grid RowDefinitions="Auto, Auto"
                       ColumnDefinitions="*, *, 2*">
-                    
+
                     <Label Grid.Row="0" Grid.Column="0"
                            Text="Adultos:*" />
 
@@ -73,16 +73,13 @@
 
                 <Button Text="Avançar" />
 
-
-
+                <Button Text="Sobre"
+                        Clicked="OnSobreClicked"
+                        Margin="0,8,0,0"
+                        HorizontalOptions="Center" />
             </VerticalStackLayout>
 
-
-
-
         </Frame>
-        
-        
 
     </VerticalStackLayout>
 </ContentPage>
